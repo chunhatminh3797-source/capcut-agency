@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,49 +13,61 @@
 body{
 margin:0;
 font-family:Arial;
-background:linear-gradient(135deg,#000000,#050a30);
+background: radial-gradient(circle at top,#0a1b3d,#000000);
 color:white;
 text-align:center;
-overflow:hidden;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
 }
 
 .container{
-margin-top:120px;
+max-width:420px;
+padding:20px;
 }
 
 h1{
-font-size:42px;
-color:#00eaff;
+font-size:38px;
+margin-bottom:10px;
 }
 
-p{
-font-size:18px;
+.gradient{
+background: linear-gradient(90deg,#00eaff,#a100ff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.desc{
 opacity:0.8;
+margin-bottom:30px;
 }
 
-button{
+.name{
+background:rgba(255,255,255,0.08);
+padding:12px;
+border-radius:20px;
+margin-bottom:30px;
+}
+
+.btn{
 display:block;
-margin:20px auto;
-width:250px;
-padding:15px;
+text-decoration:none;
+padding:18px;
+margin:15px 0;
+border-radius:40px;
 font-size:18px;
-border:none;
-border-radius:10px;
-background:#1e90ff;
+font-weight:bold;
+}
+
+.main{
+background:linear-gradient(90deg,#00eaff,#4c8cff);
+color:black;
+}
+
+.second{
+border:1px solid rgba(255,255,255,0.2);
 color:white;
-cursor:pointer;
-transition:0.3s;
-}
-
-button:hover{
-transform:scale(1.05);
-background:#00bfff;
-}
-
-.counter{
-margin-top:20px;
-font-size:20px;
-color:#00ffaa;
 }
 
 </style>
@@ -65,23 +78,41 @@ color:#00ffaa;
 
 <div class="container">
 
-<h1>CAPCUT CHU NHAT MINH AGENCY</h1>
+<h1>Kiếm Tiền</h1>
 
-<p>Đăng ký Creator CapCut kiếm tiền</p>
+<h1 class="gradient">CapCut Creator</h1>
 
-<div class="counter">
-Thu nhập Creator: $1000 – $5000 / tuần
+<p class="desc">
+Trở thành nhà sáng tạo template CapCut.  
+Thu nhập $1000 – $5000 mỗi tuần.
+</p>
+
+<div class="name">
+CAPCUT CHU NHAT MINH AGENCY
 </div>
 
-<button>Tham Gia Group</button>
+<a class="btn main"
+href="https://www.capcut.net/imlv/creator/template-creator-recruit?theme=light&source=agency&creator_source=agency&code=H62SG4QN&share_token=F841F8BC-0676-467F-A264-F7FCEAB7E04A&platform=copy_link&language=en&region=VN&enter_from=profile_agency&is_copy_link=1">
 
-<button>Xem Template</button>
+Đăng ký CapCut
 
-<button>Đăng Ký Creator</button>
+</a>
+
+<a class="btn second"
+href="https://zalo.me/g/qfxglf815">
+
+Cộng đồng Zalo
+
+</a>
+
+<a class="btn second"
+href="https://mobile.capcutshare.com/sv2/ZSufAPN6x/">
+
+Xem Template
+
+</a>
 
 </div>
 
 </body>
-
 </html>
-<meta charset="UTF-8">
